@@ -2,10 +2,10 @@ import streamlit as st
 
 import google.generativeai as genai
 from apikey import google_gemini_api_key,openai_api_key
-genai.configure(api_key="AIzaSyDr5hk6x9K618uAfBtgYR3Z9ZvJ4O32yu4")
+genai.configure(api_key="API_key")
 
 # from openai import OpenAI
-# client= OpenAI(api_key="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")
+# client= OpenAI(api_key="API key")
 
 generation_config = {
   "temperature": 0.9,
